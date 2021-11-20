@@ -31,7 +31,7 @@
       "description": "Staging server"
     },
     {
-      "url": "http://134.0.112.137:2021",
+      "url": "http://134.0.112.137:1337",
       "description": "Production server"
     }
   ],
