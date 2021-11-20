@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_components_footers",
+  "info": {
+    "name": "Footer",
+    "icon": "window-minimize",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "socialMediaHeader": {
+      "type": "string"
+    },
+    "contactsBlockHeader": {
+      "type": "string"
+    },
+    "contactsBlockPhone": {
+      "type": "string"
+    },
+    "contactsBlockEmail": {
+      "type": "string"
+    },
+    "menu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.menu"
+    }
+  }
+}

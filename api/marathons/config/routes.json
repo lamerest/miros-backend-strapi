@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/marathons",
+      "handler": "marathons.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/marathons",
+      "handler": "marathons.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/marathons",
+      "handler": "marathons.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

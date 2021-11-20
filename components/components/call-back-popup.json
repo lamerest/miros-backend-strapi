@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_components_call_back_popups",
+  "info": {
+    "name": "CallBack Popup",
+    "icon": "phone-alt"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "mail": {
+      "type": "string"
+    },
+    "header": {
+      "type": "richtext"
+    },
+    "button": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_stats",
+  "info": {
+    "name": "Stat",
+    "icon": "list-ol"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

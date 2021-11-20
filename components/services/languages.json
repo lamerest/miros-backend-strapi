@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_services_languages",
+  "info": {
+    "name": "Language",
+    "icon": "language",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "languageName": {
+      "type": "string"
+    },
+    "languageCode": {
+      "type": "string"
+    },
+    "languageImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

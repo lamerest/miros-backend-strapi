@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_components_reviews",
+  "info": {
+    "name": "Review",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "reviewHeader": {
+      "type": "string"
+    },
+    "reviewText": {
+      "type": "richtext"
+    },
+    "videos": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

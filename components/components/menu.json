@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_components_menus",
+  "info": {
+    "name": "Menu",
+    "icon": "list"
+  },
+  "options": {},
+  "attributes": {
+    "main": {
+      "type": "string"
+    },
+    "marathons": {
+      "type": "string"
+    },
+    "blog": {
+      "type": "string"
+    },
+    "about": {
+      "type": "string"
+    }
+  }
+}

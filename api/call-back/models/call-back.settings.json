@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "callbacks",
+  "info": {
+    "name": "CallBack",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    }
+  }
+}

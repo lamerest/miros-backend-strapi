@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/call-backs",
+      "handler": "call-back.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/call-backs/count",
+      "handler": "call-back.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/call-backs/:id",
+      "handler": "call-back.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/call-backs",
+      "handler": "call-back.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/call-backs/:id",
+      "handler": "call-back.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/call-backs/:id",
+      "handler": "call-back.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

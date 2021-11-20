@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_components_headers",
+  "info": {
+    "name": "Header",
+    "icon": "grip-lines",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Menu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.menu"
+    },
+    "Languages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "services.languages"
+    }
+  }
+}

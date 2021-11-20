@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reactions",
+  "info": {
+    "name": "Reactions",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "article": {
+      "via": "reactions",
+      "model": "article"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "reactions"
+    },
+    "action": {
+      "type": "enumeration",
+      "enum": [
+        "like",
+        "dislike"
+      ]
+    }
+  }
+}

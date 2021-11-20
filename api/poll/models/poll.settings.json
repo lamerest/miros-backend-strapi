@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "polls",
+  "info": {
+    "name": "poll",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Result": {
+      "type": "text"
+    },
+    "Nutrition": {
+      "type": "text"
+    },
+    "Parameters": {
+      "type": "text"
+    },
+    "Steps": {
+      "type": "string"
+    },
+    "Calories": {
+      "type": "integer"
+    },
+    "Water": {
+      "type": "decimal"
+    },
+    "Weight": {
+      "type": "decimal"
+    },
+    "Date": {
+      "type": "date",
+      "required": true
+    },
+    "users_permissions_user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    }
+  }
+}

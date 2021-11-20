@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_components_commentaries",
+  "info": {
+    "name": "Commentaries",
+    "icon": "comment-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "firstBlock": {
+      "type": "richtext"
+    },
+    "secondBlock": {
+      "type": "richtext"
+    },
+    "thirdBlock": {
+      "type": "richtext"
+    },
+    "blockHeader": {
+      "type": "string"
+    }
+  }
+}
