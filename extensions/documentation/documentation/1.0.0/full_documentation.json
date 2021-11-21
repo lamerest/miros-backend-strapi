@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "11/13/2021 5:57:16 PM"
+    "x-generation-date": "11/21/2021 8:03:21 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -31,7 +31,7 @@
       "description": "Staging server"
     },
     {
-      "url": "http://134.0.112.137:1337",
+      "url": "YOUR_PRODUCTION_SERVER",
       "description": "Production server"
     }
   ],
@@ -8172,6 +8172,9 @@
           "SEOKeywords": {
             "type": "string"
           },
+          "supportPatreonText": {
+            "type": "string"
+          },
           "localizations": {
             "type": "array",
             "items": {
@@ -8251,6 +8254,9 @@
                 "SEOKeywords": {
                   "type": "string"
                 },
+                "supportPatreonText": {
+                  "type": "string"
+                },
                 "localizations": {
                   "type": "array",
                   "items": {
@@ -8322,6 +8328,9 @@
             "type": "string"
           },
           "SEOKeywords": {
+            "type": "string"
+          },
+          "supportPatreonText": {
             "type": "string"
           },
           "localizations": {

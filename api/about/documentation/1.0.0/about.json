@@ -771,6 +771,9 @@
           "SEOKeywords": {
             "type": "string"
           },
+          "supportPatreonText": {
+            "type": "string"
+          },
           "localizations": {
             "type": "array",
             "items": {
@@ -850,6 +853,9 @@
                 "SEOKeywords": {
                   "type": "string"
                 },
+                "supportPatreonText": {
+                  "type": "string"
+                },
                 "localizations": {
                   "type": "array",
                   "items": {
@@ -921,6 +927,9 @@
             "type": "string"
           },
           "SEOKeywords": {
+            "type": "string"
+          },
+          "supportPatreonText": {
             "type": "string"
           },
           "localizations": {
