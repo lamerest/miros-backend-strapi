@@ -36,7 +36,8 @@
           "localized": true
         }
       },
-      "type": "string"
+      "type": "string",
+      "regex": "#?[a-zA-Z0-9]"
     },
     "textHexColor": {
       "pluginOptions": {

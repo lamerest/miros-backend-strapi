@@ -31,7 +31,7 @@
       "description": "Staging server"
     },
     {
-      "url": "https://admin.miros-platform.com",
+      "url": "/",
       "description": "Production server"
     }
   ],
