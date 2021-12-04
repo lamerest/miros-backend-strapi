@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "11/21/2021 8:03:21 PM"
+    "x-generation-date": "12/04/2021 6:32:22 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -31,8 +31,8 @@
       "description": "Staging server"
     },
     {
-      "url": "/",
-      "description": "https://admin.miros-platfrom.com"
+      "url": "YOUR_PRODUCTION_SERVER",
+      "description": "Production server"
     }
   ],
   "externalDocs": {
@@ -8175,6 +8175,140 @@
           "supportPatreonText": {
             "type": "string"
           },
+          "telegramBlockImage": {
+            "required": [
+              "id",
+              "name",
+              "hash",
+              "mime",
+              "size",
+              "url",
+              "provider"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "alternativeText": {
+                "type": "string"
+              },
+              "caption": {
+                "type": "string"
+              },
+              "width": {
+                "type": "integer"
+              },
+              "height": {
+                "type": "integer"
+              },
+              "formats": {
+                "type": "object"
+              },
+              "hash": {
+                "type": "string"
+              },
+              "ext": {
+                "type": "string"
+              },
+              "mime": {
+                "type": "string"
+              },
+              "size": {
+                "type": "number"
+              },
+              "url": {
+                "type": "string"
+              },
+              "previewUrl": {
+                "type": "string"
+              },
+              "provider": {
+                "type": "string"
+              },
+              "provider_metadata": {
+                "type": "object"
+              },
+              "related": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
+          "aboutBlockImage": {
+            "required": [
+              "id",
+              "name",
+              "hash",
+              "mime",
+              "size",
+              "url",
+              "provider"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "alternativeText": {
+                "type": "string"
+              },
+              "caption": {
+                "type": "string"
+              },
+              "width": {
+                "type": "integer"
+              },
+              "height": {
+                "type": "integer"
+              },
+              "formats": {
+                "type": "object"
+              },
+              "hash": {
+                "type": "string"
+              },
+              "ext": {
+                "type": "string"
+              },
+              "mime": {
+                "type": "string"
+              },
+              "size": {
+                "type": "number"
+              },
+              "url": {
+                "type": "string"
+              },
+              "previewUrl": {
+                "type": "string"
+              },
+              "provider": {
+                "type": "string"
+              },
+              "provider_metadata": {
+                "type": "object"
+              },
+              "related": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
           "localizations": {
             "type": "array",
             "items": {
@@ -8255,6 +8389,12 @@
                   "type": "string"
                 },
                 "supportPatreonText": {
+                  "type": "string"
+                },
+                "telegramBlockImage": {
+                  "type": "string"
+                },
+                "aboutBlockImage": {
                   "type": "string"
                 },
                 "localizations": {
@@ -9626,6 +9766,207 @@
           "SEOKeywords": {
             "type": "string"
           },
+          "welcomeImage": {
+            "required": [
+              "id",
+              "name",
+              "hash",
+              "mime",
+              "size",
+              "url",
+              "provider"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "alternativeText": {
+                "type": "string"
+              },
+              "caption": {
+                "type": "string"
+              },
+              "width": {
+                "type": "integer"
+              },
+              "height": {
+                "type": "integer"
+              },
+              "formats": {
+                "type": "object"
+              },
+              "hash": {
+                "type": "string"
+              },
+              "ext": {
+                "type": "string"
+              },
+              "mime": {
+                "type": "string"
+              },
+              "size": {
+                "type": "number"
+              },
+              "url": {
+                "type": "string"
+              },
+              "previewUrl": {
+                "type": "string"
+              },
+              "provider": {
+                "type": "string"
+              },
+              "provider_metadata": {
+                "type": "object"
+              },
+              "related": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
+          "telegramBotImage": {
+            "required": [
+              "id",
+              "name",
+              "hash",
+              "mime",
+              "size",
+              "url",
+              "provider"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "alternativeText": {
+                "type": "string"
+              },
+              "caption": {
+                "type": "string"
+              },
+              "width": {
+                "type": "integer"
+              },
+              "height": {
+                "type": "integer"
+              },
+              "formats": {
+                "type": "object"
+              },
+              "hash": {
+                "type": "string"
+              },
+              "ext": {
+                "type": "string"
+              },
+              "mime": {
+                "type": "string"
+              },
+              "size": {
+                "type": "number"
+              },
+              "url": {
+                "type": "string"
+              },
+              "previewUrl": {
+                "type": "string"
+              },
+              "provider": {
+                "type": "string"
+              },
+              "provider_metadata": {
+                "type": "object"
+              },
+              "related": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
+          "aboutImage": {
+            "required": [
+              "id",
+              "name",
+              "hash",
+              "mime",
+              "size",
+              "url",
+              "provider"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "alternativeText": {
+                "type": "string"
+              },
+              "caption": {
+                "type": "string"
+              },
+              "width": {
+                "type": "integer"
+              },
+              "height": {
+                "type": "integer"
+              },
+              "formats": {
+                "type": "object"
+              },
+              "hash": {
+                "type": "string"
+              },
+              "ext": {
+                "type": "string"
+              },
+              "mime": {
+                "type": "string"
+              },
+              "size": {
+                "type": "number"
+              },
+              "url": {
+                "type": "string"
+              },
+              "previewUrl": {
+                "type": "string"
+              },
+              "provider": {
+                "type": "string"
+              },
+              "provider_metadata": {
+                "type": "object"
+              },
+              "related": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
           "localizations": {
             "type": "array",
             "items": {
@@ -9679,6 +10020,15 @@
                   "type": "string"
                 },
                 "SEOKeywords": {
+                  "type": "string"
+                },
+                "welcomeImage": {
+                  "type": "string"
+                },
+                "telegramBotImage": {
+                  "type": "string"
+                },
+                "aboutImage": {
                   "type": "string"
                 },
                 "localizations": {
