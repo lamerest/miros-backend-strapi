@@ -3,7 +3,7 @@ module.exports = {
       {
         name: 'miros-backend-strapi',
         script: 'NODE_ENV=production npm',
-        args: 'start',
+        args: 'run start',
       },
     ],
   };
