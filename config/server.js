@@ -1,5 +1,5 @@
 module.exports = ({ env }) => ({
-  host: env('HOST', '0.0.0.0'),
+  host: env('HOST', '185.46.9.236'),
   port: env.int('PORT', 1337),
   cors: {
     enabled: false,
